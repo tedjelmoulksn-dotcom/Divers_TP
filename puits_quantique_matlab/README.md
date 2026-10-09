@@ -20,7 +20,7 @@ Open [`puits_quantique_differences_finies.m`](puits_quantique_differences_finies
 
 Ten grid points are a coarse teaching discretisation. Increase resolution and compare eigenvalues before drawing quantitative conclusions. Check eigenpair ordering and wavefunction normalisation when extending the simulation.
 
-No convergence study or new numerical benchmark was performed for this README update.
+A grid-refinement comparison checks how discretisation affects low-energy levels and mode shapes; retain the same domain and potential while varying the number of interior points.
 
 ## Licence
 
