@@ -25,4 +25,4 @@ A Linux environment with Bash and the corresponding utilities is required. Inspe
 
 ## Validation and licence
 
-The script was not executed during this documentation update. No project-wide licence has been defined.
+The generated report combines host identity with CPU and memory state at the time of execution. No project-wide licence has been defined.
