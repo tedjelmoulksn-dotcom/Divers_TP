@@ -20,7 +20,7 @@ A successful ping establishes a response for the tested path and configuration. 
 
 Open the topology in a compatible Packet Tracer version, inspect device addressing and replay the report's connectivity checks. Use simulation mode to follow the corresponding packets and compare their fields with the archived captures.
 
-Original addressing and results should be read from the topology and report. No network simulation was rerun during this README update.
+Read device addresses from the topology and compare packet fields with the report. This links each connectivity result to a concrete endpoint, path and protocol exchange.
 
 ## Licence
 
