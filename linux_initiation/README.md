@@ -1,32 +1,51 @@
-# Linux — System Inspection Script
+# TP Linux — initiation
 
-A Bash exercise for collecting host identification, processor information and memory usage.
+## Vue d'ensemble
+TP d'initiation à Linux (formation 2023–2026) : commandes système et premier script shell de collecte d'informations sur la machine.
 
-![Display configuration inspected with xrandr during the Linux exercise.](assets/xrandr.png)
+## Objectifs
+- Découvrir les commandes d'information système.
+- Écrire un script Bash redirigeant des résultats vers un fichier.
 
-*Display configuration inspected with xrandr during the Linux exercise.*
+## Architecture
+- `info_machine.sh` : appelle `uname -n/-r/-v/-p/-o`, `lscpu` et `free -h`, et écrit le résultat dans `syst_info.txt`.
+- `assets/dpkg_1.png`, `assets/xrandr.png` : captures de commandes (`dpkg`, `xrandr`).
 
-## Implementation
+## Matériel
+PC sous Linux.
 
-[`info_machine.sh`](info_machine.sh) uses `uname`, `lscpu` and `free -h`. Its output is appended to a relative `syst_info.txt` file.
+## Logiciel
+Bash, outils GNU/Linux standards.
 
-Repeated executions accumulate output because the script uses append redirection. The file is created in the current working directory.
+## Implémentation
+Script séquentiel avec redirection de sortie.
 
-## Running
+## Principes d'ingénierie
+Automatisation de tâches répétitives par script.
 
-Review the script, then run:
+## Résultats
+Fichier `syst_info.txt` généré à l'exécution (non versionné).
 
+## Difficultés
+À documenter.
+
+## Structure
+```
+TP_Linux_Initiation/
+├── README.md
+├── info_machine.sh
+└── assets/
+```
+
+## Exécution
 ```bash
-bash info_machine.sh
+chmod +x info_machine.sh
+./info_machine.sh
 cat syst_info.txt
 ```
 
-A Linux environment with Bash and the corresponding utilities is required. Inspect the generated information before sharing it.
+## Médias
+![xrandr](assets/xrandr.png)
 
-## Supporting material
-
-[`assets/`](assets/) contains screenshots from package and display-tool exploration. These are archived exercise captures, not a current inventory of the reader's machine.
-
-## Validation and licence
-
-The generated report combines host identity with CPU and memory state at the time of execution. No project-wide licence has been defined.
+## Compétences
+Linux, Bash, commandes système.

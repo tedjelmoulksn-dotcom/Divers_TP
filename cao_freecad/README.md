@@ -1,24 +1,22 @@
-# FreeCAD — Parametric Chess-Piece Model
+# Pièce d'échecs — CAO FreeCAD
 
-A mechanical CAD exercise archived as a native FreeCAD document.
+## Vue d'ensemble
+Modèle 3D d'une pièce d'échecs réalisé lors d'un TP FreeCAD (janvier 2024).
 
-## Available artifact
+## Contenu
+- `piece_echecs.FCStd` : fichier FreeCAD (arbre de construction complet).
 
-[`piece_echecs.FCStd`](piece_echecs.FCStd) contains the model and its native document structure. Open it in FreeCAD to inspect the feature tree and geometry.
+## Logiciel
+FreeCAD. Version : À documenter.
 
-## Workflow
+## Implémentation
+Méthode de modélisation (esquisse + révolution, opérations booléennes…) : À documenter (ouvrir le fichier pour la décrire).
 
-1. Open the document in a compatible FreeCAD version.
-2. Inspect sketches, dimensions and dependencies in the feature tree.
-3. Recompute the model after any parameter change.
-4. Export a STEP file for exchange or a mesh for an appropriate downstream workflow.
+## Médias
+À documenter : ajouter une capture du modèle dans `assets/`.
 
-The native document is the reference for feature dependencies and geometry. Distinguish nominal CAD dimensions from fabrication tolerances, and check exported geometry separately from the editable model.
+## Exécution
+Ouvrir `piece_echecs.FCStd` dans FreeCAD.
 
-## Validation
-
-Inspect model validity, recomputation and export consistency before using the geometry in a downstream workflow.
-
-## Licence
-
-No project-wide licence has been defined.
+## Compétences
+CAO 3D, FreeCAD.

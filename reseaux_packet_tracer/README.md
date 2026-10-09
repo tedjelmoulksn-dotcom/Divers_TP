@@ -1,31 +1,18 @@
-# Network Fundamentals — Packet Tracer Laboratory
+# TP d'introduction aux réseaux
 
-A networking exercise using a simulated topology to inspect addressing, connectivity and packet behaviour.
+TP d'initiation (octobre 2024) : analyse de trames et commandes réseau de base, avec une maquette Cisco Packet Tracer.
 
-![Captured TCP handshake and HTTP request; supporting networking-course material.](assets/trames_1_et_4.png)
-
-*Captured TCP handshake and HTTP request; supporting networking-course material.*
-
-## Artifacts
-
-| Location | Content |
+| Élément | Contenu |
 |---|---|
-| [`src/tp_reseau.pkt`](src/tp_reseau.pkt) | Native Cisco Packet Tracer topology |
-| [`docs/tp_reseau.odt`](docs/tp_reseau.odt) | Working laboratory report |
-| [`assets/`](assets/) | Ping, hostname, protocol, frame and TTL captures |
+| `src/tp_reseau.pkt` | Maquette Packet Tracer |
+| `docs/tp_reseau.odt` | Compte rendu |
+| `assets/` | Captures : adresses MAC et IP source/destination d'une trame, protocole, TTL, résultats de `ping`, `hostname` |
 
-## Technical focus
+## À documenter
 
-The exercise connects Ethernet frame information with IP addressing and basic connectivity checks. ICMP echo tests help inspect reachability; packet inspection exposes protocol fields and time-to-live behaviour.
+Le compte rendu (format `.odt`) n'a pas pu être lu automatiquement : la topologie, les questions traitées et les conclusions sont à résumer ici à partir du document.
 
-A successful ping establishes a response for the tested path and configuration. It does not independently establish throughput, application availability or a complete network qualification.
+## Avant publication
 
-## Reproducing
-
-Open the topology in a compatible Packet Tracer version, inspect device addressing and replay the report's connectivity checks. Use simulation mode to follow the corresponding packets and compare their fields with the archived captures.
-
-Read device addresses from the topology and compare packet fields with the report. This links each connectivity result to a concrete endpoint, path and protocol exchange.
-
-## Licence
-
-No project-wide licence has been defined.
+- Vérifier que les captures ne montrent ni adresse IP publique personnelle, ni nom de machine ou d'utilisateur à ne pas diffuser.
+- Classé dans `To_Review` : TP d'initiation, intérêt limité pour un portfolio embarqué.
