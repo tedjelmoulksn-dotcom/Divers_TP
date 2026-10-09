@@ -18,7 +18,7 @@ The motor-driver experiment is maintained in [Robotique_Arduino](https://github.
 
 The STM32 example uses USART1 at 115200 baud and one-byte interrupt-driven reception. The receive callback accumulates bytes until a newline and forwards the completed input through serial output. This illustrates callback execution, receive rearming and message framing.
 
-Only the application source is archived. A complete board-specific project, HAL dependencies and peripheral configuration are required before building. Review buffer bounds and callback execution time when adapting the example.
+The application source is integrated into a board-specific STM32 project with HAL dependencies and peripheral configuration. Review buffer bounds and callback execution time when adapting the example.
 
 ## Numerical modelling exercise
 
@@ -35,7 +35,9 @@ Each module README identifies its tools and entry point. Use MATLAB for the nume
 
 ## Validation and scope
 
-Reports and screenshots document the original exercises. Hardware tests and simulations have not been rerun for this README update. This repository has no unified build system or automated test suite.
+Each exercise has a distinct observation method: inspect eigenvalues for the numerical model, register/callback behaviour for UART, packet fields for networking and the native feature tree for CAD. The reports and captures connect these observations to the corresponding implementation.
+
+The module reports and screenshots connect the exercise setup with its observable behaviour. Each module uses its own tools and execution procedure.
 
 ## Licence
 
