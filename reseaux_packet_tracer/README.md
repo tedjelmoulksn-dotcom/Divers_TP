@@ -2,6 +2,10 @@
 
 A networking exercise using a simulated topology to inspect addressing, connectivity and packet behaviour.
 
+![Captured TCP handshake and HTTP request; supporting networking-course material.](assets/trames_1_et_4.png)
+
+*Captured TCP handshake and HTTP request; supporting networking-course material.*
+
 ## Artifacts
 
 | Location | Content |
