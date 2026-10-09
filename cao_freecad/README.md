@@ -13,11 +13,11 @@ A mechanical CAD exercise archived as a native FreeCAD document.
 3. Recompute the model after any parameter change.
 4. Export a STEP file for exchange or a mesh for an appropriate downstream workflow.
 
-The archive does not document the original FreeCAD version, manufacturing tolerances or a validated fabrication process. Specific modelling operations should be established from the native file rather than assumed.
+The native document is the reference for feature dependencies and geometry. Distinguish nominal CAD dimensions from fabrication tolerances, and check exported geometry separately from the editable model.
 
 ## Validation
 
-No geometry or manufacturing checks were performed for this README update.
+Inspect model validity, recomputation and export consistency before using the geometry in a downstream workflow.
 
 ## Licence
 
