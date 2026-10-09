@@ -1,6 +1,10 @@
 # Engineering Laboratory Portfolio
 
-A collection of practical exercises in numerical modelling, embedded serial communication, Linux tooling, networking and mechanical CAD.
+Engineering exercises in embedded UART, networking, Linux, CAD and numerical modelling.
+
+![TCP connection setup and HTTP request from the networking exercise.](reseaux_packet_tracer/assets/trames_1_et_4.png)
+
+*TCP connection setup and HTTP request from the networking exercise.*
 
 ## Projects
 
