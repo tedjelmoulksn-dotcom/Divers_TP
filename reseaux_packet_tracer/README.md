@@ -1,18 +1,27 @@
-# TP d'introduction aux réseaux
+# Network Fundamentals — Packet Tracer Laboratory
 
-TP d'initiation (octobre 2024) : analyse de trames et commandes réseau de base, avec une maquette Cisco Packet Tracer.
+A networking exercise using a simulated topology to inspect addressing, connectivity and packet behaviour.
 
-| Élément | Contenu |
+## Artifacts
+
+| Location | Content |
 |---|---|
-| `src/tp_reseau.pkt` | Maquette Packet Tracer |
-| `docs/tp_reseau.odt` | Compte rendu |
-| `assets/` | Captures : adresses MAC et IP source/destination d'une trame, protocole, TTL, résultats de `ping`, `hostname` |
+| [`src/tp_reseau.pkt`](src/tp_reseau.pkt) | Native Cisco Packet Tracer topology |
+| [`docs/tp_reseau.odt`](docs/tp_reseau.odt) | Working laboratory report |
+| [`assets/`](assets/) | Ping, hostname, protocol, frame and TTL captures |
 
-## À documenter
+## Technical focus
 
-Le compte rendu (format `.odt`) n'a pas pu être lu automatiquement : la topologie, les questions traitées et les conclusions sont à résumer ici à partir du document.
+The exercise connects Ethernet frame information with IP addressing and basic connectivity checks. ICMP echo tests help inspect reachability; packet inspection exposes protocol fields and time-to-live behaviour.
 
-## Avant publication
+A successful ping establishes a response for the tested path and configuration. It does not independently establish throughput, application availability or a complete network qualification.
 
-- Vérifier que les captures ne montrent ni adresse IP publique personnelle, ni nom de machine ou d'utilisateur à ne pas diffuser.
-- Classé dans `To_Review` : TP d'initiation, intérêt limité pour un portfolio embarqué.
+## Reproducing
+
+Open the topology in a compatible Packet Tracer version, inspect device addressing and replay the report's connectivity checks. Use simulation mode to follow the corresponding packets and compare their fields with the archived captures.
+
+Original addressing and results should be read from the topology and report. No network simulation was rerun during this README update.
+
+## Licence
+
+No project-wide licence has been defined.
