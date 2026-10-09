@@ -2,6 +2,10 @@
 
 A Bash exercise for collecting host identification, processor information and memory usage.
 
+![Display configuration inspected with xrandr during the Linux exercise.](assets/xrandr.png)
+
+*Display configuration inspected with xrandr during the Linux exercise.*
+
 ## Implementation
 
 [`info_machine.sh`](info_machine.sh) uses `uname`, `lscpu` and `free -h`. Its output is appended to a relative `syst_info.txt` file.
